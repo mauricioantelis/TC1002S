@@ -7,7 +7,7 @@ This repository has all the information and files for "TC1002S Herramientas comp
 
 Instrucctions for students: clone this repository and create a folder for your assignments
 1) Clone this repository in your local computer (use git commands: clone)
-2) Create a folder in "AD21/" named as your code number, e.g. "A12345678"
+2) Create a folder in "InfoEstudiantes/" named as your code number, e.g. "A12345678"
 3) Add to your folder all the files you need to or might want. You need to add at least one file
 4) Upload all your changes to the remote repository (use git commands: add, commit, push)
 5) Verify that all your changes are now in the remote repository
