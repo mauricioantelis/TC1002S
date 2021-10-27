@@ -1,0 +1,17 @@
+pwd: prints the current directory.
+ls: lists the files and child directories of the current directory.
+cd (directory): moves to the specified directory.
+mkdir (name): creates a directory with the specified name inside of the current directory.
+rmdir (name): removes an empty directory.
+rm (file): removes a file.
+rm -r (directory): removes a folder and all of its contents.
+touch (name): creates a file with the specified name.
+nano (file): opens the editor of a file and creates it if it doesn´t exist.
+cat (file): outputs the contents of a file.
+
+GIT
+git add .: prepares the changes made to commit.
+git commit -m "(message)": creates a new version with the changes in the staging area and attaches a message.
+git status: prints information about the current changes.
+git push: applies changes from a local repository to a remote repository.
+git pull: applies changes from a remote repository to a local repository.
