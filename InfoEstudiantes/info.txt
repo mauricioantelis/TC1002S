@@ -1,0 +1,7 @@
+Create a folder named as your code number, e.g. "A12345678"
+
+Add one file named "MyInfo"
+
+Upload all your changes to the remote repository (use git commands: add, commit, push)
+
+Add to your folder all the documents you develop
