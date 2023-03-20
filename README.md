@@ -1,4 +1,4 @@
-# TC1002S_G2
+# TC1002S
 
 
 # TC1002S Herramientas computacionales: El arte de la analítica
