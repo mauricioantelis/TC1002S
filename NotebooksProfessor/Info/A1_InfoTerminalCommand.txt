@@ -1,0 +1,68 @@
+
+# -----------------------------------------
+# Open terminal in windows: 
+# -----------------------------------------
+
+Windows+R, then type cmd
+
+Windows Power Shell
+
+
+# -----------------------------------------
+# Basic commands
+# -----------------------------------------
+ls
+cd foldername
+cd foldername1/foldername2/foldername3
+cd ..
+cd
+pwd
+clear
+more filename.ext
+
+
+
+# -----------------------------------------
+# Crear y borrar directorios
+# -----------------------------------------
+
+mkdir dirname
+rm -r foldername
+
+
+
+# -----------------------------------------
+# Borrar archivos
+# -----------------------------------------
+
+rm name.ext
+
+
+
+# -----------------------------------------
+# Mover y copiar
+# -----------------------------------------
+
+mv *1r*0.03.dat f003
+
+mv f003.zip /home/mauricio.antelis/JobsCWB/O2_L1H1_RUN2_BKG/report/dump/Both/
+
+cp 
+
+
+
+# -----------------------------------------
+# Imprimir informacion de los archivos
+# -----------------------------------------
+
+ls -lah L*.*
+
+
+
+# -----------------------------------------
+Contar el numero de archivos en un folder
+# -----------------------------------------
+ls -1 | wc -l
+ls L1*.dat -1 | wc -l
+
+
