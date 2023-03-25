@@ -1,12 +1,13 @@
+# Name: León Emiliano García Pérez
+# ID: A00573074
+# My carreer: ITC - Ingeniería en Tecnologías Computacionales
 
 # -----------------------------------------
 # Open terminal in windows: 
 # -----------------------------------------
 
 Windows+R, then type cmd
-
 Windows Power Shell
-
 
 # -----------------------------------------
 # Basic commands
@@ -20,8 +21,6 @@ pwd
 clear
 more filename.ext
 
-
-
 # -----------------------------------------
 # Crear y borrar directorios
 # -----------------------------------------
@@ -29,15 +28,11 @@ more filename.ext
 mkdir dirname
 rm -r foldername
 
-
-
 # -----------------------------------------
 # Borrar archivos
 # -----------------------------------------
 
 rm name.ext
-
-
 
 # -----------------------------------------
 # Mover y copiar
@@ -50,7 +45,6 @@ mv f003.zip /home/mauricio.antelis/JobsCWB/O2_L1H1_RUN2_BKG/report/dump/Both/
 cp 
 
 
-
 # -----------------------------------------
 # Imprimir informacion de los archivos
 # -----------------------------------------
@@ -58,11 +52,8 @@ cp
 ls -lah L*.*
 
 
-
 # -----------------------------------------
 Contar el numero de archivos en un folder
 # -----------------------------------------
 ls -1 | wc -l
 ls L1*.dat -1 | wc -l
-
-
