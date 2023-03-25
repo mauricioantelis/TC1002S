@@ -2,7 +2,3 @@ Carpeta A01639643
 
 Semana Tec
 TC1002S
-
-
-Gráfica de Elbow (Elbow method)
-it gives us an idea of the amount of clusters are ideal for the practice.
