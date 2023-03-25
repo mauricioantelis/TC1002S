@@ -1,7 +1,0 @@
-Andres Benjamin Antelis Moreno-A01637683
-A01637683@tec.mx
-TC1002S Ingeniero en tecnologias computacionales
-
-Here will be the notebooks worked on this week
-
-git remote set-url origin git@github.com:username/repo.git
