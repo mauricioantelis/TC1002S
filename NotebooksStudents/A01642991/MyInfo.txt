@@ -1,0 +1,7 @@
+Gabriel Alvarez Arzate - A01642991
+git status
+git add .
+git status
+git commit -m "commit 2"
+git pull 
+git push origin main
