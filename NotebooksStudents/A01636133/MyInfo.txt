@@ -4,4 +4,4 @@ Add one file named "MyInfo" with your informatoin
 
 Upload all your changes to the remote repository (use git commands: add, commit, push)
 
-Add to your folder all the documents you develop
+test
