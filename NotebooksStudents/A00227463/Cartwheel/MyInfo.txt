@@ -1,0 +1,4 @@
+Aqui esta todos los notebooks que desarrollemos en esta semana Tec
+
+Usa la terminal para copiar los archivos que necesites hacia tu folder in "InfoEstudiantes/"
+
