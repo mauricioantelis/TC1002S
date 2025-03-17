@@ -1,1 +1,0 @@
-Andrea Guadalupe Blanco Rubio
