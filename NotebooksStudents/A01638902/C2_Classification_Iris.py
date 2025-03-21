@@ -194,6 +194,7 @@ print(y_test.shape[0])
 
 # Initialize the classifier
 classifier1 = LogisticRegression(C=1e5)
+classifier = LogisticRegression()
 
 # Fit the model to the training data
 
@@ -229,3 +230,51 @@ disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 # Plot normalized confussion matrix
 disp.plot(cmap="Blues")
 plt.show()
+
+
+#Activity
+
+#Compare the accuracy of the classification using (a) the four variables, (b) the two Petal variables, and (c) the two Sepal variables. Which provides the best classification accuracy?
+
+
+
+X = dataset[["Sepal_Length", "Sepal_Width", "Petal_Length", "Petal_Width"]].values
+Xpetal = dataset[["Petal_Length", "Petal_Width"]].values
+Xsepal = dataset[["Sepal_Length", "Sepal_Width"]].values
+
+y = dataset["Flower"].values
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+
+classifier2 = RandomForestClassifier()
+classifier3 = KNeighborsClassifier()
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=30)
+classifier1.fit(x_train,y_train)
+y_pred = classifier1.predict(X_test)
+print(accuracy_score(y_test, y_pred) * 100)
+
+
+# X_train, X_test, y_train, y_test = train_test_split(Xpetal, y, test_size=0.20, random_state=30)
+# classifier.fit(x_test,y_test)
+# y_pred = classifier1.predict(X_test)
+# print(accuracy_score(y_test, y_pred) * 100)
+
+# X_train, X_test, y_train, y_test = train_test_split(Xsepal, y, test_size=0.20, random_state=30)
+# classifier.fit(x_test,y_test)
+# y_pred = classifier1.predict(X_test)
+# print(accuracy_score(y_test, y_pred) * 100)
+
+
+#Using the four variables, try with two classifiers. Which provides the best performanc
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=30)
+classifier2.fit(x_train,y_train)
+y_pred = classifier2.predict(X_test)
+print(accuracy_score(y_test, y_pred) * 100)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=30)
+classifier3.fit(x_train,y_train)
+y_pred = classifier3.predict(X_test)
+print(accuracy_score(y_test, y_pred) * 100)
