@@ -553,3 +553,5 @@ identificar las relaciones entre ellas, y aplicar machine learning con herramien
 
 """
 
+
+#Link al video: https://youtu.be/JCOY_29ilrg
