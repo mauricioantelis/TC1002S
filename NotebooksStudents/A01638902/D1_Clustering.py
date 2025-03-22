@@ -129,13 +129,13 @@ km = KMeans(n_clusters=3, n_init="auto")
 # Do K-means clustering (assing each point in the dataset to a cluster)
 #FlowerPred = km.fit_predict(dataset[['Sepal_Length', 'Sepal_Width', 'Petal_Length', 'Petal_Width']])
 #FlowerPred = km.fit_predict(dataset[['Sepal_Length','Sepal_Width']])
-Cluster1 = km.fit_predict(dataset[['Petal_Length','Petal_Width']] )
+Cluster1 = km.fit_predict(dataset[['x1','x2']] )
 
 # Print estimated cluster of each observations in the dataset
 Cluster1
 
 # Print real cluster of each observations in the dataset
-dataset.Flower.values
+dataset.values
 
 # Manual pairing of the labels of the estimated clusters with the real ones
 Cluster1Paired = np.choose(Cluster1, [2, 0, 1]).astype(int) # CHANGE USING THE ORDER THE LABEL ESTIMATED
